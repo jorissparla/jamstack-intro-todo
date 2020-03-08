@@ -1,0 +1,8 @@
+type Todo {
+  text: String!
+  complete: Boolean
+}
+
+type Query {
+  allTodos: [Todo!]!
+}
